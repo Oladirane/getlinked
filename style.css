@@ -1,10 +1,9 @@
 body {
   margin: 0;
+  background-color: #150e28;
 }
 
 header {
-  background-image: url(images/Back1.jpg);
-  background-size: cover;
   color: white;
 }
 
@@ -58,9 +57,9 @@ header {
   );
 }
 
-header .line {
+.line {
   background-color: #ffffff2e;
-  height: 2px;
+  height: 1px;
   margin: 0;
 }
 
@@ -219,3 +218,168 @@ header .line {
   position: relative;
 }
 
+/* next1 */
+.next1 {
+  padding: 50px 120px 50px 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  color: white;
+  column-gap: 70px;
+}
+
+.next1img {
+  position: relative;
+}
+
+.next1img .omgg11 {
+  width: 100%;
+}
+
+.next1img .omgg1 {
+  position: absolute;
+  right: -50px;
+  bottom: -8px;
+}
+
+.next1img .omgg2 {
+  position: absolute;
+  left: -60px;
+  top: 120px;
+}
+
+.next1text {
+  position: relative;
+}
+
+.next1text img {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+.nextt h1 {
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.nextt h1 span {
+  color: #d434fe;
+}
+
+.nextt p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 50px;
+}
+
+/* next2 */
+.next2 {
+  padding: 50px 120px 20px 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  color: white;
+  column-gap: 70px;
+}
+
+.next2img .omgg22 {
+  width: 90%;
+}
+
+.next2text {
+  position: relative;
+}
+
+.omgg31 {
+  position: absolute;
+  top: 0;
+  left: 45%;
+}
+.omgg21 {
+  position: absolute;
+  bottom: -10px;
+  right: 50px;
+}
+
+.next3 {
+  padding: 50px 120px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.next3img .img00 {
+  width: 100%;
+}
+
+.next3img {
+  flex: 1;
+  position: relative;
+}
+
+.next3rec {
+  position: absolute;
+  left: 20%;
+  top: -100px;
+}
+
+.next3rec2 {
+  position: absolute;
+  right: 30px;
+  bottom: -70px;
+}
+
+.next3text {
+  flex: 1;
+}
+
+.next3text h3 {
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+.next3text span {
+  color: #d434fe;
+}
+
+.next3text p {
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.btnnext3 {
+  margin-top: 50px;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
