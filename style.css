@@ -1,10 +1,23 @@
 body {
   margin: 0;
   background-color: #150e28;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1512px;
 }
 
 header {
   color: white;
+  position: relative;
+}
+
+header .purple1 {
+  position: absolute;
+  top: 0;
 }
 
 .topnav {
@@ -144,6 +157,20 @@ header {
 
 .headimgg {
   width: 125%;
+}
+
+.headtext {
+  z-index: 25;
+}
+
+.purple2 {
+  position: absolute;
+  top: -30px;
+  left: -20px;
+}
+
+.headimg {
+  position: relative;
 }
 
 .imgg {
@@ -382,4 +409,51 @@ header {
   color: white;
   padding: 10px 30px;
   border-radius: 5px;
+}
+
+.next4 {
+  display: flex;
+  padding: 50px 200px;
+  gap: 50px;
+  align-items: center;
+}
+
+.next4text h1 {
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+}
+
+.next4text h1 span {
+  color: #d434fe;
+}
+
+.next4text p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.next4text p span {
+  color: #d434fe;
+}
+
+.next4text {
+  flex: 0.7;
+}
+
+.next4img {
+  flex: 1;
+}
+
+.next4img img {
+  width: 100%;
+}
+
+.faq {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d434fe;
 }
