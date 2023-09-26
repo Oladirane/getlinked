@@ -247,7 +247,7 @@ header .purple1 {
 
 /* next1 */
 .next1 {
-  padding: 50px 120px 50px 120px;
+  padding: 50px 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -456,4 +456,86 @@ header .purple1 {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #d434fe;
+}
+
+.next5 {
+  padding: 50px 200px;
+  text-align: center;
+}
+
+.next5 h2 {
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.next5 h6 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 33%;
+}
+
+.next5table {
+  display: flex;
+  align-items: end;
+  gap: 60px;
+  margin-top: 80px;
+}
+
+.tab2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab3 {
+  width: 45%;
+  text-align: left;
+}
+
+.tab1 {
+  text-align: right;
+  width: 45%;
+}
+
+.tab1 h1,
+.tab3 h1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #d434fe;
+}
+
+.tab1 p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.tab2 .recc1 {
+  background-color: #d434fe;
+  height: 137px;
+  width: 4px;
+  margin: 0;
+}
+
+.tab2 .recc2 {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
 }
