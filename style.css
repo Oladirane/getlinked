@@ -606,17 +606,20 @@ header .purple1 {
 }
 
 .next6 {
-  background-image: url(images/remium_photo-1664443577580-dd2674e9d359\ 1.png);
+  /* background-image: url(images/premium_photo-1664443577580-dd2674e9d359\ 1.png); */
   padding: 50px 120px;
+  background-size: cover;
   display: flex;
   gap: 30px;
-  align-items: end;
+  z-index: ;
+  align-items: center;
+  position: relative;
 }
 
 .next5rew {
   margin-top: 80px;
   display: flex;
-  gap: 30px;
+  gap: 0px;
   align-items: center;
 }
 
@@ -644,6 +647,10 @@ header .purple1 {
   margin: 15px 100px;
 }
 
+.next6text h1 strong {
+  color: #903aff;
+}
+
 .next6text h1 span {
   color: #d434fe;
 }
@@ -659,14 +666,12 @@ header .purple1 {
 
 .rewtext {
   border: 1px solid #d434fe;
-  /* height: 296px;
-  width: 212px; */
   border-radius: 10px;
   text-align: center;
   background-color: rgba(#d1c4d4, 1);
-  position: absolute;
+  margin-top: -80px;
   z-index: -20;
-  bottom: -180px;
+  bottom: -190px;
   padding: 100px 20px 20px;
 }
 
@@ -676,5 +681,19 @@ header .purple1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
+
+.next6rec1{
+  position: absolute;
+  right: 0;
+  bottom: -250px;
+  z-index: -55;
+}
+
+.next6rec2{
+  position: absolute;
+  left: 80px;
+  bottom: 0px;
+  z-index: -55;
+}
+
