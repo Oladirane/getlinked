@@ -18,6 +18,7 @@ header {
 header .purple1 {
   position: absolute;
   top: 0;
+  z-index: -25;
 }
 
 .topnav {
@@ -316,6 +317,21 @@ header .purple1 {
   align-items: center;
   color: white;
   column-gap: 70px;
+  position: relative;
+}
+
+.recpurple1 {
+  position: absolute;
+  right: 0;
+  bottom: -350px;
+  z-index: -50;
+}
+
+.recpurple2 {
+  position: absolute;
+  left: 0px;
+  bottom: -100px;
+  z-index: -10;
 }
 
 .next2img .omgg22 {
@@ -347,11 +363,19 @@ header .purple1 {
 
 .next3img .img00 {
   width: 100%;
+  margin-top: 30px;
 }
 
 .next3img {
   flex: 1;
   position: relative;
+}
+
+.recimg21 {
+  position: absolute;
+  left: -120px;
+  bottom: -500px;
+  z-index: -2;
 }
 
 .next3rec {
@@ -413,7 +437,7 @@ header .purple1 {
 
 .next4 {
   display: flex;
-  padding: 50px 200px;
+  padding: 100px 200px;
   gap: 50px;
   align-items: center;
 }
@@ -446,10 +470,36 @@ header .purple1 {
 
 .next4img {
   flex: 1;
+  position: relative;
 }
 
-.next4img img {
-  width: 100%;
+.quest1 {
+  position: absolute;
+  top: -20px;
+  left: 20%;
+}
+
+.quest2 {
+  position: absolute;
+  top: -80px;
+  left: 40%;
+}
+
+.quest3 {
+  position: absolute;
+  top: -20px;
+  right: 25%;
+}
+
+.next4img .mainimg {
+  width: 120%;
+}
+
+.img22 {
+  position: absolute;
+  top: -400px;
+  right: -200px;
+  z-index: -10;
 }
 
 .faq {
@@ -459,7 +509,7 @@ header .purple1 {
 }
 
 .next5 {
-  padding: 50px 120px;
+  padding: 50px 150px;
   text-align: center;
 }
 
@@ -515,7 +565,7 @@ header .purple1 {
   line-height: 29px;
   letter-spacing: 0em;
   color: #d434fe;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .tab1 p,
@@ -553,4 +603,78 @@ header .purple1 {
   display: flex;
   justify-content: center;
   margin: 15px;
+}
+
+.next6 {
+  background-image: url(images/remium_photo-1664443577580-dd2674e9d359\ 1.png);
+  padding: 50px 120px;
+  display: flex;
+  gap: 30px;
+  align-items: end;
+}
+
+.next5rew {
+  margin-top: 80px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.next5rew h1 {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 69px;
+  margin: 0;
+}
+
+.next5rew h2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.next6text .h1 {
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  margin: 15px 100px;
+}
+
+.next6text h1 span {
+  color: #d434fe;
+}
+
+.next6text p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 401px;
+  margin: 15px 100px;
+}
+
+.rewtext {
+  border: 1px solid #d434fe;
+  /* height: 296px;
+  width: 212px; */
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(#d1c4d4, 1);
+  position: absolute;
+  z-index: -20;
+  bottom: -180px;
+  padding: 100px 20px 20px;
+}
+
+.first,
+.second,
+.third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
