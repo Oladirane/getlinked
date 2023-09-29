@@ -683,17 +683,45 @@ header .purple1 {
   align-items: center;
 }
 
-.next6rec1{
+.next6rec1 {
   position: absolute;
   right: 0;
   bottom: -250px;
   z-index: -55;
 }
 
-.next6rec2{
+.next6rec2 {
   position: absolute;
   left: 80px;
   bottom: 0px;
   z-index: -55;
 }
 
+.next7 {
+  padding: 50px 120px;
+}
+
+.sponsors1 {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+}
+
+.next7rec {
+  height: 112.48px;
+  width: 5px;
+  background-color: #d434fe;
+}
+
+.next7rec2 {
+  width: 257.3px;
+  height: 5px;
+  background-color: #d434fe;
+}
+
+.sponsor3 {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+}
