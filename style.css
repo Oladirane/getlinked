@@ -611,7 +611,6 @@ header .purple1 {
   background-size: cover;
   display: flex;
   gap: 30px;
-  z-index: ;
   align-items: center;
   position: relative;
 }
@@ -698,15 +697,18 @@ header .purple1 {
 }
 
 .next7 {
-  padding: 50px 120px;
+  padding: 50px 150px;
 }
 
 .sponsors1 {
   display: flex;
-  justify-content: center;
-  gap: 60px;
+  justify-content: space-around;
   align-items: center;
 }
+
+/* .sponsors1 img{
+  width: 100%;
+} */
 
 .next7rec {
   height: 112.48px;
@@ -722,6 +724,5 @@ header .purple1 {
 
 .sponsor3 {
   display: flex;
-  gap: 90px;
-  justify-content: center;
+  justify-content: space-between;
 }
