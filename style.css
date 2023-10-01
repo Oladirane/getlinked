@@ -2,17 +2,18 @@ body {
   margin: 0;
   background-color: #150e28;
   color: white;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
-/* .container {
+.container {
   width: 1512px;
-} */
+}
 
 header {
   color: white;
@@ -169,9 +170,17 @@ header .purple1 {
 }
 
 .purple2 {
+  width: 100%;
   position: absolute;
-  top: -30px;
-  left: -20px;
+  top: 30px;
+  left: -50px;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  50% {
+    transform: rotate(360deg);
+  }
 }
 
 .headimg {
@@ -266,6 +275,14 @@ header .purple1 {
 
 .next1img .omgg11 {
   width: 100%;
+  animation: rota 4s linear infinite;
+}
+
+@keyframes rota {
+  100%{
+    transform: rotate(360deg);
+  }
+  
 }
 
 .next1img .omgg1 {
@@ -617,6 +634,10 @@ header .purple1 {
   gap: 30px;
   align-items: center;
   position: relative;
+}
+
+.next6 img {
+  width: 100%;
 }
 
 .next5rew {
