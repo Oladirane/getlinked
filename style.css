@@ -2,17 +2,17 @@ body {
   margin: 0;
   background-color: #150e28;
   color: white;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-.container {
+/* .container {
   width: 1512px;
-}
+} */
 
 header {
   color: white;
@@ -671,7 +671,7 @@ header .purple1 {
   border: 1px solid #d434fe;
   border-radius: 10px;
   text-align: center;
-  background-color: rgba(#d1c4d4, 1);
+  background-color: rgba(144, 58, 255, 0.1);
   margin-top: -80px;
   z-index: -20;
   bottom: -190px;
@@ -704,6 +704,15 @@ header .purple1 {
   margin: 50px 150px;
   text-align: center;
   border: 2px solid #d434fe;
+  position: relative;
+}
+
+.lastrec {
+  position: absolute;
+  top: -200px;
+  left: 15%;
+  z-index: -25;
+  opacity: 0.5;
 }
 
 .sponsors1 {
@@ -712,6 +721,7 @@ header .purple1 {
   justify-content: space-evenly;
 }
 
+.sponsors2 img,
 .sponsors1 img {
   width: 100%;
 }
@@ -730,7 +740,8 @@ header .purple1 {
 
 .sponsor3 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  padding: 50px;
 }
 
 .sponsors2 {
