@@ -6,6 +6,10 @@ body {
   justify-content: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 1512px;
 }
@@ -697,8 +701,9 @@ header .purple1 {
 }
 
 .next7 {
-  padding: 50px 250px;
+  margin: 50px 150px;
   text-align: center;
+  border: 2px solid #d434fe;
 }
 
 .sponsors1 {
