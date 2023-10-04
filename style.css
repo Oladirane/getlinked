@@ -4,6 +4,7 @@ body {
   color: white;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 html {
@@ -464,6 +465,51 @@ header .purple1 {
   align-items: center;
 }
 
+.plus {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plus1 {
+  width: 10px;
+  height: 2.5px;
+  background-color: #d434fe;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.plus1:nth-child(1) {
+  transform: translateY(7px);
+}
+
+.plus1:nth-child(2) {
+  transform: rotate(90deg);
+}
+
+.plus.active .plus1:nth-child(2) {
+  opacity: 0;
+}
+
+.faqboss{
+  position: relative;
+}
+
+.faq {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  display: none;
+}
+
+.faq.active{
+  display: block;
+}
+
 .next4text h1 {
   font-family: Clash Display;
   font-size: 32px;
@@ -524,10 +570,11 @@ header .purple1 {
   z-index: -10;
 }
 
-.faq {
+.faq1 {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #d434fe;
+  align-items: center;
 }
 
 .next5 {
