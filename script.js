@@ -1,12 +1,21 @@
-const plusin = document.querySelector(".plus");
-const dropdown = document.querySelector(".faq");
+// const dropdown = document.querySelectorAll(".faqboss");
 
-function removeplus() {
-  plusin.classList.toggle("active");
-  dropdown.classList.toggle("active");
-}
+// dropdown.forEach((item) => {
+//   const ola = item.querySelector(".plus");
+//   const olad = item.querySelector(".faq");
 
-plusin.addEventListener("click", removeplus);
+//   ola.addEventListener("click", () => {
+//     ola.classList.toggle("active");
+//     olad.classList.toggle("active");
+//   });
+// });
+
+// function removeplus() {
+//   plusin.classList.toggle("active");
+//   dropdown.classList.toggle("active");
+// }
+
+// plusin.addEventListener("click", removeplus);
 
 // const plusin = document.querySelectorAll(".plus");
 // const dropdown = document.querySelectorAll(".faq");
@@ -17,3 +26,15 @@ plusin.addEventListener("click", removeplus);
 // }
 
 // plusin.forEach((item) => item.addEventListener("click", removeplus));
+
+const faqitems = document.querySelectorAll(".faqboss");
+
+faqitems.forEach((item) => {
+  const togglebutton = item.querySelector(".plus");
+  const answer = item.querySelector(".faq");
+
+  togglebutton.addEventListener("click", () => {
+    togglebutton.classList.toggle("active");
+    answer.classList.toggle("active");
+  });
+});

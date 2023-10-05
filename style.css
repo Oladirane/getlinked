@@ -494,7 +494,6 @@ header .purple1 {
   opacity: 0;
 }
 
-
 .faq {
   font-family: Montserrat;
   font-size: 14px;
@@ -503,7 +502,7 @@ header .purple1 {
   display: none;
 }
 
-.faq.active{
+.faq.active {
   display: block;
 }
 
