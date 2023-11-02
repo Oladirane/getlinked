@@ -478,7 +478,7 @@ header .purple1 {
   width: 10px;
   height: 2.5px;
   background-color: #d434fe;
-  transition: 0.2s;
+  transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 
