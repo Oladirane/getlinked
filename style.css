@@ -505,6 +505,10 @@ header .purple1 {
   opacity: 0;
 }
 
+.faqboss {
+  border-bottom: 1px solid #d434fe;
+}
+
 .faq {
   font-family: Montserrat;
   font-size: 14px;
@@ -580,7 +584,6 @@ header .purple1 {
 .faq1 {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #d434fe;
   align-items: center;
 }
 
@@ -871,7 +874,7 @@ footer {
   padding: 50px 150px;
   display: grid;
   grid-template-columns: 2.5fr 1fr 1fr;
-  column-gap: 300px;
+  column-gap: 150px;
   align-items: baseline;
   filter: blur(100);
 }
@@ -917,6 +920,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  flex: 2;
 }
 
 .foot2 {
@@ -933,29 +937,29 @@ footer {
 }
 
 .left {
-  width: 50%;
+  max-width: 50%;
 }
 .rightt {
-  width: 50%;
-  display: flex;
+  max-width: 50%;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
-.rightimg {
+/* .rightimg {
   width: 100%;
-}
+} */
 
 .rightt img {
   width: 100%;
 }
 
 .almo {
-  margin-top: -600px;
+  margin-top: -450px;
 }
 
 .left11 {
-  width: 400px;
+  max-width: 400px;
 }
 
 .left11 h1 {
@@ -979,8 +983,8 @@ footer {
 .leftbord {
   border: solid 1px #903aff;
   margin: 70px 0;
-  width: 500px;
-  padding: 40px 70px;
+  max-width: 500px;
+  padding: 40px;
   border-radius: 5px;
 }
 
