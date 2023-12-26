@@ -2,22 +2,18 @@ body {
   margin: 0;
   background-color: #150e28;
   color: white;
-  display: flex;
-  justify-content: center;
-  overflow-x: hidden;
+  width: 90%;
+  margin: auto;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-.container {
-  width: 1512px;
-}
-
 header {
   color: white;
   position: relative;
+  /* height: 120vh; */
 }
 
 header .purple1 {
@@ -33,7 +29,7 @@ header .purple1 {
   padding: 10px 120px;
 }
 
-.topnav a{
+.topnav a {
   text-decoration: none;
 }
 
@@ -84,8 +80,7 @@ header .purple1 {
   );
 }
 
-.topnav .btnreg1 a{
-  
+.topnav .btnreg1 a {
   text-decoration: none;
   color: white;
 }
@@ -118,8 +113,9 @@ header .purple1 {
 .headbody {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
-  padding: 10px 0px 0 120px;
-  column-gap: 50px;
+  padding: 10px 100px;
+  column-gap: 0px;
+  align-items: center;
 }
 
 .headtext {
@@ -176,7 +172,7 @@ header .purple1 {
 }
 
 .headimgg {
-  width: 125%;
+  width: 110%;
 }
 
 .headtext {
@@ -184,21 +180,23 @@ header .purple1 {
 }
 
 .purple2 {
-  width: 100%;
   position: absolute;
   top: 30px;
   left: -50px;
+  width: 100%;
   animation: rotate 5s linear infinite;
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 .headimg {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .imgg {
@@ -206,9 +204,11 @@ header .purple1 {
   margin-left: 10px;
 }
 
-.headimg img {
-  margin-top: 30px;
+.poppp {
   width: 100%;
+  height: 100%;
+
+  filter: blur(1px);
 }
 
 .headtext p {
@@ -292,11 +292,11 @@ header .purple1 {
   animation: rota 3s linear infinite;
 }
 
-@keyframes rota {
+/* @keyframes rota {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 .next1img .omgg1 {
   position: absolute;
@@ -772,13 +772,12 @@ header .purple1 {
 .next6rec2 {
   position: absolute;
   left: 0;
-  bottom: 0px;
+  /* bottom: 0px; */
   z-index: -55;
 }
 
 .next7 {
   margin: 50px 150px;
-  text-align: center;
   border: 2px solid #d434fe;
   position: relative;
 }
@@ -789,6 +788,9 @@ header .purple1 {
   left: 15%;
   z-index: -25;
   opacity: 0.5;
+}
+.next77 {
+  text-align: center;
 }
 
 .sponsors2 img,
@@ -808,6 +810,19 @@ header .purple1 {
   background-color: #d434fe;
 }
 
+.next7rec22 {
+  width: 300px;
+  height: 5px;
+  background-color: #d434fe;
+}
+
+/* .sponsors1 img,
+.sponsors2 div,
+.sponsors3 img {
+  width: 100%;
+  height: 40%;
+} */
+
 .sponsors1 {
   display: flex;
   justify-content: center;
@@ -818,7 +833,7 @@ header .purple1 {
 .sponsor3 {
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 70px;
 }
 
 .sponsors2 {
@@ -837,7 +852,7 @@ header .purple1 {
   width: 100%;
 }
 
-.next7 h2 {
+.next77 h2 {
   font-family: Clash Display;
   font-size: 32px;
   font-weight: 700;
@@ -845,7 +860,7 @@ header .purple1 {
   letter-spacing: 0em;
 }
 
-.next7 p {
+.next77 p {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
@@ -856,8 +871,9 @@ footer {
   padding: 50px 150px;
   display: grid;
   grid-template-columns: 2.5fr 1fr 1fr;
-  column-gap: 200px;
+  column-gap: 300px;
   align-items: baseline;
+  filter: blur(100);
 }
 
 .foot1 h1 {
@@ -900,4 +916,11 @@ footer {
 .foot1 {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+
+.foot2 {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
 }

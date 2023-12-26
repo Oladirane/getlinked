@@ -1,14 +1,14 @@
-// const dropdown = document.querySelectorAll(".faqboss");
+const dropdown = document.querySelectorAll(".faqboss");
 
-// dropdown.forEach((item) => {
-//   const ola = item.querySelector(".plus");
-//   const olad = item.querySelector(".faq");
+dropdown.forEach((item) => {
+  const ola = item.querySelector(".plus");
+  const olad = item.querySelector(".faq");
 
-//   ola.addEventListener("click", () => {
-//     ola.classList.toggle("active");
-//     olad.classList.toggle("active");
-//   });
-// });
+  ola.addEventListener("click", () => {
+    ola.classList.toggle("active");
+    olad.classList.toggle("active");
+  });
+});
 
 // function removeplus() {
 //   plusin.classList.toggle("active");
@@ -27,14 +27,14 @@
 
 // plusin.forEach((item) => item.addEventListener("click", removeplus));
 
-const faqitems = document.querySelectorAll(".faqboss");
+// const faqitems = document.querySelectorAll(".faqboss");
 
-faqitems.forEach((item) => {
-  const togglebutton = item.querySelector(".plus");
-  const answer = item.querySelector(".faq");
+// faqitems.forEach((item) => {
+//   const togglebutton = item.querySelector(".plus");
+//   const answer = item.querySelector(".faq");
 
-  togglebutton.addEventListener("click", () => {
-    togglebutton.classList.toggle("active");
-    answer.classList.toggle("active");
-  });
-});
+//   togglebutton.addEventListener("click", () => {
+//     togglebutton.classList.toggle("active");
+//     answer.classList.toggle("active");
+//   });
+// });
