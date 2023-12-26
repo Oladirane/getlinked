@@ -926,5 +926,32 @@ footer {
 }
 
 .security {
+  padding: 50px 150px;
   display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightimg {
+  width: 50%;
+  /* position: relative; */
+}
+
+.right img {
+  width: 100%;
+}
+
+.almo {
+  /* position: absolute; */
+  margin-top: -290px;
 }
