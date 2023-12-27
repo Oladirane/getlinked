@@ -23,6 +23,7 @@ header {
 header .purple1 {
   position: absolute;
   top: 0;
+  right: 0;
   z-index: -25;
 }
 
@@ -30,7 +31,7 @@ header .purple1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 120px;
+  padding: 10px 10%;
 }
 
 .topnav a {
@@ -96,7 +97,7 @@ header .purple1 {
 }
 
 .ign {
-  padding: 10px 80px;
+  padding: 10px 10%;
   text-align: right;
 }
 
@@ -117,7 +118,7 @@ header .purple1 {
 .headbody {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
-  padding: 10px 0 0 100px;
+  padding: 10px 0 0 10%;
   column-gap: 0px;
   align-items: center;
 }
@@ -279,7 +280,7 @@ header .purple1 {
 
 /* next1 */
 .next1 {
-  padding: 50px 120px;
+  padding: 50px 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -304,7 +305,7 @@ header .purple1 {
 
 .next1img .omgg1 {
   position: absolute;
-  right: -50px;
+  right: 0px;
   bottom: -8px;
 }
 
@@ -344,12 +345,12 @@ header .purple1 {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 }
 
 /* next2 */
 .next2 {
-  padding: 50px 120px 20px 120px;
+  padding: 50px 10% 20px 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -372,6 +373,7 @@ header .purple1 {
   left: 0px;
   bottom: -100px;
   z-index: -10;
+  width: 100%;
 }
 
 .next2img .omgg22 {
@@ -394,7 +396,7 @@ header .purple1 {
 }
 
 .next3 {
-  padding: 50px 120px;
+  padding: 50px 10%;
   color: white;
   display: flex;
   align-items: center;
@@ -418,6 +420,7 @@ header .purple1 {
   left: 0px;
   bottom: 0px;
   z-index: -2;
+  width: 100%;
 }
 
 .next3rec {
@@ -479,7 +482,7 @@ header .purple1 {
 
 .next4 {
   display: flex;
-  padding: 100px 200px;
+  padding: 100px 10%;
   gap: 50px;
   align-items: center;
 }
@@ -581,7 +584,7 @@ header .purple1 {
 .img22 {
   position: absolute;
   top: -400px;
-  /* right: 50px; */
+  right: 0px;
   z-index: -10;
   filter: blur(30px);
 }
@@ -595,7 +598,7 @@ header .purple1 {
 }
 
 .next5 {
-  padding: 50px 150px;
+  padding: 50px 10%;
   text-align: center;
 }
 
@@ -693,8 +696,7 @@ header .purple1 {
 
 .next6 {
   /* background-image: url(images/premium_photo-1664443577580-dd2674e9d359\ 1.png); */
-  padding: 50px 120px;
-  background-size: cover;
+  padding: 50px 10%;
   display: flex;
   gap: 30px;
   align-items: center;
@@ -881,10 +883,10 @@ header .purple1 {
 
 footer {
   background-color: #100b20;
-  padding: 50px 150px;
+  padding: 50px 10%;
   display: grid;
   grid-template-columns: 2.5fr 1fr 1fr;
-  gap: 50px;
+  gap: 30px;
   align-items: baseline;
   filter: blur(100);
 }
@@ -913,6 +915,7 @@ footer {
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
+  margin: 0 0 10px 0;
 }
 
 .foot2 p,
@@ -941,7 +944,7 @@ footer {
 }
 
 .security {
-  padding: 50px 150px;
+  padding: 50px 10%;
   display: flex;
   gap: 20px;
   align-items: center;
@@ -1013,6 +1016,7 @@ footer {
   line-height: 35px;
   color: #d434fe;
   margin: 0;
+  text-align: left;
   margin-top: 30px;
 }
 
@@ -1021,12 +1025,14 @@ footer {
   font-size: 14px;
   font-weight: 700;
   line-height: 30px;
+  text-align: left;
   margin: 0;
 }
 .check {
   display: flex;
   align-items: baseline;
   gap: 15px;
+  text-align: left;
 }
 .check img {
   background-color: #2de100;
