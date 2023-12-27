@@ -190,7 +190,7 @@ header .purple1 {
   left: -50px;
   width: 100%;
   filter: blur(2px);
-  animation: rotate 2s infinite;
+  animation: rotate 4s infinite;
 }
 
 @keyframes rotate {
