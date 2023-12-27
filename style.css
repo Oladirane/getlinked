@@ -193,11 +193,11 @@ header .purple1 {
   animation: rotate 2s infinite;
 }
 
-/* @keyframes rotate {
+@keyframes rotate {
   50% {
-    transform: rotate(180deg);
+    transform: scaleY(-1);
   }
-} */
+}
 
 .headimg {
   position: relative;
