@@ -799,7 +799,7 @@ header .purple1 {
 .lastrec {
   position: absolute;
   top: -200px;
-  left: 15%;
+  left: 12%;
   z-index: -25;
   opacity: 0.5;
   width: 100%;
