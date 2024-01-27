@@ -3,10 +3,19 @@
 }
 
 @media (max-width: 1370px) {
+  .headtext h1,
+  .headtext h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
   .mobile {
     display: block;
   }
 
+  .next4img .mainimg {
+    width: 100%;
+  }
   .topnav ul {
     display: none;
   }
@@ -23,6 +32,8 @@
 
   .headrec .img1 {
     right: 10%;
+    top: -50px;
+    right: -45px;
   }
 
   .headtext {
