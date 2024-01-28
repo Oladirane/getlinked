@@ -15,7 +15,6 @@ html {
 header {
   color: white;
   position: relative;
-  /* height: 120vh; */
 }
 
 header .purple1 {
@@ -51,7 +50,6 @@ header .purple1 {
   display: flex;
   gap: 50px;
   list-style: none;
-  /* margin-left: 180px; */
 }
 
 .topnav ul a {
@@ -276,7 +274,6 @@ header .purple1 {
   position: relative;
 }
 
-/* next1 */
 .next1 {
   padding: 50px 10%;
   display: grid;
@@ -294,12 +291,6 @@ header .purple1 {
   width: 100%;
   animation: rota 3s linear infinite;
 }
-
-/* @keyframes rota {
-  100% {
-    transform: rotate(360deg);
-  }
-} */
 
 .next1img .omgg1 {
   position: absolute;
@@ -343,10 +334,8 @@ header .purple1 {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
-  /* margin-right: 50px; */
 }
 
-/* next2 */
 .next2 {
   padding: 50px 10% 20px 10%;
   display: grid;
@@ -409,7 +398,6 @@ header .purple1 {
 
 .next3img {
   flex: 1;
-  /* position: relative; */
 }
 
 .recimg21 {
