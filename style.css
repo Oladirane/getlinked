@@ -2,8 +2,6 @@ body {
   margin: 0;
   background-color: #150e28;
   color: white;
-  display: flex;
-  justify-content: center;
 }
 
 .container {
