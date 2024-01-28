@@ -879,6 +879,8 @@ header .purple1 {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
+  max-width: 452px;
+  margin: 0 auto;
 }
 
 footer {

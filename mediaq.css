@@ -66,6 +66,41 @@
     display: none;
   }
 
+  .next77 p {
+    font-size: 12px;
+    max-width: 286px;
+  }
+
+  .next77 h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .next7 {
+    max-width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .next7rec {
+    height: 30px;
+  }
+
+  .sponsors2,
+  .sponsors1 {
+    gap: 50px;
+  }
+
+  .next7rec2,
+  .next7rec22 {
+    width: 70px;
+  }
+
+  .sponsors2 img,
+  .sponsors1 img {
+    max-width: 40px;
+  }
+
   .headbody {
     display: flex;
     flex-direction: column;
