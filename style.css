@@ -116,8 +116,7 @@ header .purple1 {
 }
 
 .headbody {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
+  display: flex;
   padding: 10px 0 0 10%;
   column-gap: 0px;
   align-items: center;
