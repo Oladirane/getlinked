@@ -4,8 +4,9 @@ body {
   color: white;
 }
 
-.container {
+.maxx {
   max-width: 1512px;
+  margin: 0 auto;
 }
 
 html {
@@ -518,6 +519,10 @@ header .purple1 {
   display: block;
 }
 
+.next4text {
+  width: 50%;
+}
+
 .next4text h1 {
   font-family: Clash Display;
   font-size: 32px;
@@ -581,6 +586,7 @@ header .purple1 {
   gap: 20px;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .next5 {
@@ -785,7 +791,7 @@ header .purple1 {
 .lastrec {
   position: absolute;
   top: -200px;
-  left: 12%;
+  left: 5%;
   z-index: -25;
   opacity: 0.5;
   width: 100%;
@@ -938,19 +944,15 @@ footer {
   align-items: center;
 }
 
-.left {
-  max-width: 50%;
+.security .left {
+  width: 50%;
 }
 .rightt {
-  max-width: 50%;
+  width: 50%;
   /* display: flex;
   justify-content: center;
   align-items: center; */
 }
-
-/* .rightimg {
-  width: 100%;
-} */
 
 .rightt img {
   width: 100%;
