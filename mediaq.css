@@ -283,4 +283,12 @@
   .rightt {
     width: 100%;
   }
+  .rewtext {
+    padding: 100px 5px 20px;
+  }
+
+  .next6 {
+    flex-direction: column;
+    justify-content: center;
+  }
 }

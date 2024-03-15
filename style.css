@@ -687,7 +687,6 @@ header .purple1 {
 }
 
 .next6 {
-  /* background-image: url(images/premium_photo-1664443577580-dd2674e9d359\ 1.png); */
   padding: 50px 10%;
   display: flex;
   gap: 30px;
@@ -700,9 +699,7 @@ header .purple1 {
 }
 
 .next5rew {
-  margin-top: 80px;
   display: flex;
-  gap: 0px;
   align-items: center;
 }
 
