@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
   .ign h1 {
     font-size: 16px;
     text-align: center;
@@ -290,5 +290,28 @@
   .next6 {
     flex-direction: column;
     justify-content: center;
+  }
+
+  .tab3 {
+    display: none;
+  }
+
+  .tab33 {
+    display: block;
+  }
+  .next5table {
+    gap: 20px;
+    justify-content: right;
+  }
+  .next5rew {
+    width: 100%;
+  }
+
+  .rewtext h2,
+  .rewtext h1 {
+    font-size: 20px;
+  }
+  .tab1 {
+    width: 100%;
   }
 }
